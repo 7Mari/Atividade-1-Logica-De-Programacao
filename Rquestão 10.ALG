@@ -1,11 +1,11 @@
-Algoritmo "Quest„o 10"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "Quest√£o 10"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Maria Eduarda Chave Oliveira
 // Data atual  : 03/09/2023
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 A : real
 G : real
 combustivel : caracter
@@ -20,13 +20,13 @@ totalA :real
 totalG :real
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 //ESCOLHA COMBUSTIVEL
 
-escreval("(A)-¡lcool")
+escreval("(A)-√Ålcool")
 escreval("(G)-Gasolina")
-escreval("Escolha o tipo de CombustÌvel: ")
+escreval("Escolha o tipo de Combust√≠vel: ")
 leia(combustivel)
 escreval(" ")
 escreval("Escolha a quantidade de Litros: ")
@@ -71,7 +71,7 @@ se(litrosG > 25)entao
 fimse
 
 //exibir
-escreval("Valor de ¡lcool a pagar: " ,totalA)
+escreval("Valor de √Ålcool a pagar: " ,totalA)
 escreval("Valor de Gasolina a pagar: " ,totalG)
 
 
