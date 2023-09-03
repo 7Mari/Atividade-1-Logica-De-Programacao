@@ -1,11 +1,11 @@
-Algoritmo "Questão 7"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "QuestÃ£o 7"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Maria Eduarda Chaves Oliveira
 // Data atual  : 03/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 nome : caracter
 quantidade : inteiro
 total : real
@@ -15,16 +15,16 @@ desconto2 : real
 desconto3 : real
 precoUnitario : real
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
-escreval("Digite o produto de sua preferência: ")
+escreval("Digite o produto de sua preferÃªncia: ")
 leia(nome)
 escreval(" ")
 escreval("Digite a quantidade do produto: ")
 leia(quantidade)
 escreval(" ")
-escreval("Preço Unitário dos Produtos: R$3.50")
-//preço
+escreval("PreÃ§o UnitÃ¡rio dos Produtos: R$3.50")
+//preÃ§o
 precoUnitario <- 3.50
 total <- quantidade * precoUnitario
 desconto1 <- total * 0.2
