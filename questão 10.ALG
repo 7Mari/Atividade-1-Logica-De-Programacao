@@ -32,50 +32,38 @@ escreval(" ")
 escreval("Escolha a quantidade de Litros: ")
 leia(litros)
 escreval(" ")
-
 A <- 3.79
 G <- 6.59
-
-//conta
-se(combustivel = A)entao
-               litrosA <- litros * A
-FIMSE
-
-se(combustivel = G)entao
-               litrosG <- litros * G
-FIMSE
-
-//desconto
-descontoA1 <- litrosA * 0.2
-descontoA2 <- litrosA * 0.4
-
-descontoG1 <- litrosG * 0.3
-descontoG2 <- litrosG * 0.5
-
-//alcool
-se(litrosA <= 25)entao
+escolha(combustivel)
+caso "A"
+     litrosA <- litros * A
+                descontoA1 <- litrosA * 0.2
+                descontoA2 <- litrosA * 0.4
+     se(litrosA <= 25)entao
            totalA <- litrosA - descontoA1
-fimse
+           escreval("Valor de Álcool a pagar: " ,totalA)
+     fimse
 
-se(litrosA > 25)entao
+     se(litrosA > 25)entao
            totalA <- litrosA - descontoA2
-fimse
-
-//gasolina
-se(litrosG <= 25)entao
+           escreval("Valor de Álcool a pagar: " ,totalA)
+     fimse
+caso "G"
+     litrosG <- litros * G
+                descontoG1 <- litrosG * 0.3
+                descontoG2 <- litrosG * 0.5
+     se(litrosG <= 25)entao
            totalG <- litrosG - descontoG1
-fimse
+           escreval("Valor de Gasolina a pagar: " ,totalG)
+     fimse
 
-se(litrosG > 25)entao
+     se(litrosG > 25)entao
            totalG <- litrosG - descontoG2
-fimse
-
-//exibir
-escreval("Valor de Álcool a pagar: " ,totalA)
-escreval("Valor de Gasolina a pagar: " ,totalG)
-
-
-
+           escreval("Valor de Gasolina a pagar: " ,totalG)
+     fimse
+outrocaso
+         escreval("Não Existe tal opção!")
+fimescolha
 
 
 Fimalgoritmo
